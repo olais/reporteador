@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: imprimart
+        psr4_prefix: imprimart
+        src_path: app
