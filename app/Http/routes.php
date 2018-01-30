@@ -15,6 +15,8 @@ Route::get('/', 'HomeController@index');
 Route::post('querys', 'ReporteadorController@querys');
 Route::post('llenaGridQuery', 'ReporteadorController@llenaGridQuery');
 Route::get('reporteador', 'ReporteadorController@index');
+Route::get('dashboard', 'ReporteadorController@dashboard');
+
 Route::post('generarvista', 'ReporteadorController@generarvista');
 Route::post('consultavistas', 'ReporteadorController@consultavistas');
 Route::post('generaconexion', 'ReporteadorController@generaconexion');
