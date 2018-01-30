@@ -77,6 +77,7 @@
 
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
+					    <li><a href="{{ url('/dashboard') }}">Dashboard</a></li>
 					    <li><a href="{{ url('/auth/register') }}">Soporte</a></li>
 						<li><a href="{{ url('/auth/login') }}">Login</a></li>
 						<li><a href="{{ url('/auth/register') }}">Registro</a></li>
