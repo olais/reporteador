@@ -16,7 +16,7 @@ $data = array(
       'FotoSmile PRO' =>300,
       'FotoFoto' =>100,
       'Pwinty' => 36.5,
-      'Nissan' => 1.1,
+      'Nissan' => 20,
       'Imprimart' => 2,
       
     );
@@ -27,7 +27,7 @@ $color = array(
       '#27AE60',
       '#999999',
       '#3498DB',
-      '#A93226',
+      '#C0392B',
       '#F1C40F',
     );
 
