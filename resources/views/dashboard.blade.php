@@ -72,7 +72,7 @@ echo $chart;
 
 $chart->setChartAttrs( array(
   'type' => 'bar-vertical',
-  'title' => 'Incrementos por meses',
+  'title' => 'Incrementos por mes',
   'data' => $dataMultiple,
   'size' => array(1000, 200 ),
   'color' => $color,
@@ -86,7 +86,8 @@ echo $chart;
 </div>
 </div>
 </div>
-<div class="col-xs-12">
+
+<div class="col-xs-12" style='margin-top:50px;'>
     <div class="row">
      <div class="col-xs-6">
       <?php
