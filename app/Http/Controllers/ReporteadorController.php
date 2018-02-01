@@ -28,6 +28,12 @@ class ReporteadorController extends Controller {
 		return view('dashboard');
 		
 	}
+	public function llenadashboard(){
+
+		 $response=array("dato"=>1);
+	     return json_encode($response) ;
+
+	}
 
 	public function generaconexion(){
 
