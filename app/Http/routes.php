@@ -16,6 +16,8 @@ Route::post('querys', 'ReporteadorController@querys');
 Route::post('llenaGridQuery', 'ReporteadorController@llenaGridQuery');
 Route::get('reporteador', 'ReporteadorController@index');
 Route::get('dashboard', 'ReporteadorController@dashboard');
+Route::post('llenadashboard', 'ReporteadorController@llenadashboard');
+
 
 Route::post('generarvista', 'ReporteadorController@generarvista');
 Route::post('consultavistas', 'ReporteadorController@consultavistas');
